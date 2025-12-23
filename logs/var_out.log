@@ -1,0 +1,12 @@
+2025-12-23 22:09:19,133 - INFO - Index(['var_1', 'var_2', 'var_3', 'var_4', 'var_5', 'var_6', 'var_7', 'var_8',
+       'var_9', 'var_10',
+       ...
+       'var_99', 'var_100', 'var_101', 'var_102', 'var_103', 'var_104',
+       'var_105', 'var_106', 'var_107', 'var_108'],
+      dtype='object', length=108) ---> (40000, 108)
+2025-12-23 22:09:19,133 - INFO - Index(['var_1', 'var_2', 'var_3', 'var_4', 'var_5', 'var_6', 'var_7', 'var_8',
+       'var_9', 'var_10',
+       ...
+       'var_99', 'var_100', 'var_101', 'var_102', 'var_103', 'var_104',
+       'var_105', 'var_106', 'var_107', 'var_108'],
+      dtype='object', length=108) ---> (10000, 108)

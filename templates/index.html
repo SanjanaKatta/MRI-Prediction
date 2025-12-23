@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MRI Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>MRI Disease Prediction</h1>
+    <p class="subtitle">Gradient Boosting Machine Learning Model</p>
+
+    <form id="predictForm">
+        <div class="grid">
+
+            <input type="number" step="any" name="feature1" placeholder="Feature 1" required>
+            <input type="number" step="any" name="feature2" placeholder="Feature 2" required>
+            <input type="number" step="any" name="feature3" placeholder="Feature 3" required>
+            <input type="number" step="any" name="feature4" placeholder="Feature 4" required>
+            <input type="number" step="any" name="feature5" placeholder="Feature 5" required>
+            <input type="number" step="any" name="feature6" placeholder="Feature 6" required>
+            <input type="number" step="any" name="feature7" placeholder="Feature 7" required>
+            <input type="number" step="any" name="feature8" placeholder="Feature 8" required>
+
+        </div>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

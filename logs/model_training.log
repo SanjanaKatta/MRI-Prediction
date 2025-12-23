@@ -1,0 +1,29 @@
+2025-12-23 22:09:19,859 - INFO - =========KNeighborsClassifier===========
+2025-12-23 22:09:23,178 - INFO - KNN Test Accuracy : 0.9875
+2025-12-23 22:09:23,178 - INFO - =========GaussianNB===========
+2025-12-23 22:09:23,328 - INFO - Naive Bayes Test Accuracy : 0.9814
+2025-12-23 22:09:23,328 - INFO - =========LogisticRegression===========
+2025-12-23 22:09:23,669 - INFO - LogisticRegression Test Accuracy : 0.9971
+2025-12-23 22:09:23,669 - INFO - =========DecisionTreeClassifier===========
+2025-12-23 22:09:25,002 - INFO - DecisionTreeClassifier Test Accuracy : 0.9974
+2025-12-23 22:09:25,002 - INFO - =========RandomForestClassifier===========
+2025-12-23 22:09:25,789 - INFO - RandomForestClassifier Test Accuracy : 0.9974
+2025-12-23 22:09:25,789 - INFO - =========AdabostClassifier===========
+2025-12-23 22:09:26,638 - INFO - AdaBoostClassifier Test Accuracy : 0.9882
+2025-12-23 22:09:26,638 - INFO - =========GradientBoostingClassifier===========
+2025-12-23 22:09:37,023 - INFO - GradientBoostingClassifier Test Accuracy : 0.9978
+2025-12-23 22:09:37,024 - INFO - =========XGBClassifier===========
+2025-12-23 22:09:40,299 - INFO - XGBClassifier Test Accuracy : 0.9976
+2025-12-23 22:09:45,702 - INFO - KNN ROC-AUC Score : 0.9537485712348407
+2025-12-23 22:09:45,703 - INFO - Naive Bayes ROC-AUC Score : 0.9935281781549072
+2025-12-23 22:09:45,703 - INFO - Logistic Regression ROC-AUC Score : 0.9995986138556318
+2025-12-23 22:09:45,703 - INFO - Decision Tree ROC-AUC Score : 0.9577230810957419
+2025-12-23 22:09:45,703 - INFO - Random Forest ROC-AUC Score : 0.9876877978612113
+2025-12-23 22:09:45,703 - INFO - AdaBoost ROC-AUC Score : 0.9904908413731646
+2025-12-23 22:09:45,703 - INFO - Gradient Boosting ROC-AUC Score : 0.999686398155682
+2025-12-23 22:09:45,703 - INFO - XGBoost ROC-AUC Score : 0.9996415978922082
+2025-12-23 22:09:45,703 - INFO - ===================================
+2025-12-23 22:09:45,703 - INFO - BEST MODEL : Gradient Boosting
+2025-12-23 22:09:45,703 - INFO - BEST ROC-AUC : 0.999686398155682
+2025-12-23 22:09:45,703 - INFO - ===================================
+2025-12-23 22:09:45,706 - INFO - Gradient Boosting model saved successfully as Heart_Disease.pkl
