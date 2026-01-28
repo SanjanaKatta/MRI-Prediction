@@ -212,8 +212,9 @@ def common(X_train,y_train,X_test,y_test):
       with open("MRI.pkl", "wb") as f:
           pickle.dump(best_model, f)
 
-      logger.info(f"{best_model_name} model saved successfully as Heart_Disease.pkl")
+      logger.info(f"{best_model_name} model saved successfully as MRI.pkl")
 
     except Exception as e:
         error_type, error_msg, error_line = sys.exc_info()
+
         logger.info(f'Error in Line no : {error_line.tb_lineno} : due to {error_msg}')
